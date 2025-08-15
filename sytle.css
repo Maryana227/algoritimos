@@ -1,8 +1,33 @@
-<!DOCYTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="-wedht=device-widht, initial-scale=1,0">
-  <link rel"stylesheet" href=sytle.css">
-  <link rel"preconnect" href="https://fonts.googleapis.com">
-  <link rel"preconnect" href="https://fonts.gstatic.com" crossorigin>
+body {
+  background-color: #1d4221;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin: 0;
+}
+
+button {
+  background-color: #64A712;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+  display: none;
+}
+
+.passo.ativo {
+  display: block;
+}
+
+main {
+  text-align: center;
+  max-width: 90%;
+}
+
+img {
+  max-width: 90%;
+}
